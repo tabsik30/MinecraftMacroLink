@@ -1,6 +1,6 @@
 # MacroLink — plugin Macro Deck
 
-connects my minecraft mod  thrue websocet default ws://127.0.0.1:25599 
+connects my minecraft mod  thrue WebSocket default ws://127.0.0.1:25599 
 with Macro Deck 2 and shows statistic from MC on MD2 as variables
 
 first instal my mc 26.2 mod https://github.com/tabsik30/Minecraft-Macro-link-Mod/tree/main
