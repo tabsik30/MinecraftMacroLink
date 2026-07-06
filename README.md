@@ -3,12 +3,15 @@
 connects my minecraft mod  thrue websocet default ws://127.0.0.1:25599 
 with Macro Deck 2 and shows statistic from MC on MD2 as variables
 
+first instal my mc 26.2 mod https://github.com/tabsik30/Minecraft-Macro-link-Mod/tree/main
+
 
 Łączy się z modem MacroLink (Fabric, Minecraft 26.2) przez WebSocket
 (`ws://127.0.0.1:25599` domyślnie) i wystawia dane gracza jako **zmienne
 Macro Deck**, które możesz przypiąć do dowolnego przycisku (tekst, ikona,
 warunki itp. — standardowy mechanizm zmiennych w Macro Decku).
 
+najpierw zainstaluj mojego moda do minecraft 26.2 https://github.com/tabsik30/Minecraft-Macro-link-Mod/tree/main
 ## Zmienne, które ustawia plugin
 
 | Zmienna/Variabl  | Opis                                               |
