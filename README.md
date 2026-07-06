@@ -27,14 +27,7 @@ najpierw zainstaluj mojego moda do minecraft 26.2 https://github.com/tabsik30/Mi
 | {mc_biome}       | biom (np. `minecraft:plains`)       Biome          |
 | {mc_game_time}   | narazie zignorować jest dla testu Ignore this one is only for test |
 
-## Konfiguracja /config
 
-W konfiguratorze pluginu (ikonka koła zębatego przy pluginie w Macro Decku)
-możesz zmienić host/port, jeśli mod nasłuchuje gdzie indziej niż domyślnie.
-Zmiana automatycznie restartuje połączenie.
-
-in configurator you can change host/port if mod is lstening on diffrend then default
-change automaticly restats connection
 
 ## Zachowanie przy braku gry/ if game is not launched
 
