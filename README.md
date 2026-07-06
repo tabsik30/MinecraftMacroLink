@@ -12,7 +12,7 @@ Macro Deck**, które możesz przypiąć do dowolnego przycisku (tekst, ikona,
 warunki itp. — standardowy mechanizm zmiennych w Macro Decku).
 
 najpierw zainstaluj mojego moda do minecraft 26.2 https://github.com/tabsik30/Minecraft-Macro-link-Mod/tree/main
-## Zmienne, które ustawia plugin
+## Zmienne, które ustawia plugin / variables that this plugin adds
 
 | Zmienna/Variabl  | Opis                                               |
 |------------------|----------------------------------------------------|
