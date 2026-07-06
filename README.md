@@ -1,5 +1,9 @@
 # MacroLink — plugin Macro Deck
 
+connects my minecraft mod  thrue websocet default ws://127.0.0.1:25599 
+with Macro Deck 2 and shows statistic from MC on MD2 as variables
+
+
 Łączy się z modem MacroLink (Fabric, Minecraft 26.2) przez WebSocket
 (`ws://127.0.0.1:25599` domyślnie) i wystawia dane gracza jako **zmienne
 Macro Deck**, które możesz przypiąć do dowolnego przycisku (tekst, ikona,
@@ -7,34 +11,35 @@ warunki itp. — standardowy mechanizm zmiennych w Macro Decku).
 
 ## Zmienne, które ustawia plugin
 
-| Zmienna          | Opis                                              |
+| Zmienna/Variabl  | Opis                                               |
 |------------------|----------------------------------------------------|
-| `mc_health`      | aktualne HP                                        |
-| `mc_max_health`  | maksymalne HP                                      |
-| `mc_armor`       | poziom pancerza                                    |
-| `mc_hunger`      | poziom głodu                                       |
-| `mc_x`           | koordynata X                                       |
-| `mc_y`           | koordynata Y                                       |
-| `mc_z`           | koordynata Z                                       |
-| `mc_dimension`   | wymiar (np. `minecraft:overworld`)                 |
-| `mc_biome`       | biom (np. `minecraft:plains`)                      |
-| `mc_game_time`   | TYMCZASOWO surowy licznik ticków (patrz README moda) |
+| {mc_health}      | aktualne HP actual HP                              |
+| {mc_max_health}  | maksymalne HP mx HP                                |
+| {mc_armor}       | poziom pancerza Armor Status                       |
+| {mc_hunger}      | poziom głodu  Hunger Status                        |
+| {mc_x}           | koordynata X   coordinate X                        |
+| {mc_y}           | koordynata Y   coordinate Y                        |
+| {mc_z}           | koordynata Z   coordinate Z                        |
+| {mc_dimension}   | wymiar (np. `minecraft:overworld`)  Dimension      |
+| {mc_biome}       | biom (np. `minecraft:plains`)       Biome          |
+| {mc_game_time}   | narazie zignorować jest dla testu Ignore this one is only for test |
 
-## Konfiguracja
+## Konfiguracja /config
 
 W konfiguratorze pluginu (ikonka koła zębatego przy pluginie w Macro Decku)
 możesz zmienić host/port, jeśli mod nasłuchuje gdzie indziej niż domyślnie.
 Zmiana automatycznie restartuje połączenie.
 
-## Zachowanie przy braku gry
+in configurator you can change host/port if mod is lstening on diffrend then default
+change automaticly restats connection
+
+## Zachowanie przy braku gry/ if game is not launched
 
 Jeśli Minecraft nie jest uruchomiony (albo mod jeszcze nie wystartował
 serwera), plugin próbuje połączyć się ponownie co 5 sekund w tle — nie
 trzeba nic klikać, samo się złapie jak odpalisz grę.
 
-## Build
+if game is not lauched or server not started plugin will try to coonect evry 5sec in background
+it will connetc automaticly when game is launched 
 
-Otwórz `.csproj` w Visual Studio / JetBrains Rider (albo `dotnet build`
-z SDK .NET 8 na Windows) i zbuduj — DLL wyląduje w `bin/Debug/net8.0-windows.../`
-albo `bin/Release/...` w zależności od konfiguracji. Skopiuj go tam, gdzie
-Macro Deck szuka pluginów (tak jak przy Twoim poprzednim projekcie).
+
