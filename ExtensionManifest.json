@@ -1,6 +1,6 @@
 {
   "type": "Plugin",
-  "name": "MacroLink",
+  "name": "MinecraftMacroLink",
   "author": "tabsik12",
   "packageId": "tabsik12.MinecraftMacroLink",
   "version": "1.0.0",
