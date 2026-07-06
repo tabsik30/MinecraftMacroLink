@@ -1,0 +1,11 @@
+{
+  "type": "Plugin",
+  "name": "MacroLink",
+  "author": "tabsik12",
+  "packageId": "tabsik12.MinecraftMacroLink",
+  "version": "1.0.0",
+  "target-plugin-api-version": 40,
+  "target-macro-deck-version": "2.14.0",
+  "repository": "",
+  "dll": "tabsik12.MinecraftMacroLink.dll"
+}
