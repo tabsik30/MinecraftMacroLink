@@ -131,6 +131,9 @@ namespace tabsik12.MacroLink
                 // UWAGA: to na razie surowy licznik tickow gry (patrz README moda),
                 // nie realna pora dnia 0-24000.
                 SetVar("mc_game_time", ReadRaw(root, "timeOfDay"));
+                SetVar("mc_air", ReadRaw(root, "air"));
+                SetVar("mc_max_air", ReadRaw(root, "maxAir"));
+                SetVar("mc_xp_level", ReadRaw(root, "xpLevel"));
             }
             catch
             {
