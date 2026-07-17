@@ -7,7 +7,7 @@
     <Nullable>enable</Nullable>
     <AssemblyName>tabsik12.MinecraftMacroLink</AssemblyName>
     <RootNamespace>tabsik12.MacroLink</RootNamespace>
-    <Version>1.0.1</Version>
+    <Version>1.0.2</Version>
     <FileVersion>1.0.0.0</FileVersion>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
   </PropertyGroup>
