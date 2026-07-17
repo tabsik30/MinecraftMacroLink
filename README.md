@@ -28,7 +28,7 @@ najpierw zainstaluj mojego moda do minecraft 26.2 https://github.com/tabsik30/Mi
 | {mc_game_time}   | narazie zignorować jest dla testu Ignore this one is only for test |
 | {mc_air}         | pokazuje poziom powietrza  show air level           |
 | {mc_max_air}     | maksymalny poziom powietrza shows max air level    |
-| {mc_xp_level}    | poziom gracza  shows playere level 
+| {mc_xp_level}    | poziom gracza  shows player level 
 
 
 ## Zachowanie przy braku gry/ if game is not launched
